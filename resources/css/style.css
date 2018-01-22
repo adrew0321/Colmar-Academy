@@ -1,0 +1,23 @@
+/*--Universal Styles--*/
+html {
+  display: block;
+  font-family: helvetica;
+  font-size 18px;
+}
+
+head {
+  display: none;
+}
+
+body {
+  display:block;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
