@@ -11,6 +11,7 @@ head {
 
 body {
   display:block;
+  line-height: 1.4rem;
 }
 
 div {
@@ -21,3 +22,53 @@ div {
   width: 960px;
   margin: 0 auto;
 }
+
+.flex {
+  display: flex;
+}
+
+/*--Logo & Nav Bar--*/
+header {
+  display: block;
+}
+
+.company-name {
+  display: flex;
+  justify-content: space-between;
+  color: silver;
+  align-items:center;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3rem;
+  padding-left: 24px;
+}
+
+.logo span {
+  height: 32px;
+  font-size: 1.2rem
+}
+
+color {
+  color: grey;
+  font-weight: bold;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  color: black;
+  padding-right: 24px;
+}
+
+.nav-bar span {
+  padding-left: 16px;
+}
+
+/*--Main Head--*/
