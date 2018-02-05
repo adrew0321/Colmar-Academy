@@ -1,119 +1,203 @@
 /*--Universal Styles--*/
 html {
-  display: block;
-  font-family: helvetica;
-  font-size 18px;
-}
+    display: block;
+    font-family: helvetica;
+    font-size 18px; }
 
 head {
-  display: none;
+    display: none;
 }
 
 body {
-  display:block;
-  line-height: 1.4rem;
+    display: block;
+    line-height: 1.4rem;
 }
 
 div {
-  display: block;
+    display: block;
 }
 
 .container {
-  width: 960px;
-  margin: 0 auto;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 /*--Logo & Nav Bar--*/
 header {
-  display: block;
+    display: block;
 }
 
 .company-name {
-  display: flex;
-  justify-content: space-between;
-  color: silver;
-  align-items:center;
-  height: 64px;
+    display: flex;
+    justify-content: space-between;
+    color: silver;
+    align-items: center;
+    height: 64px;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
-  height: 3rem;
-  padding-left: 24px;
+    height: 3rem;
+    padding-left: 24px;
 }
 
 .logo span {
-  height: 32px;
-  font-size: 1.2rem
+    height: 32px;
+    font-size: 1.2rem
 }
 
 color {
-  color: grey;
-  font-weight: bold;
+    color: grey;
+    font-weight: bold;
 }
 
 .nav-bar {
-  display: flex;
-  align-items: center;
-  color: black;
-  padding-right: 24px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-right: 24px;
 }
 
 .nav-bar span {
-  padding-left: 16px;
+    padding-left: 16px;
 }
 
 /*--Main Head--*/
 .main-page {
-  display: flex;
-  align-items: center;
-  background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
 }
 
 .main-page img {
-  height: auto;
-  width: 60%;
-  padding: 32px 24px;
+    height: auto;
+    width: 57%;
+    padding: 32px 24px;
 }
 
 .description {
-  width: 25%;
-  padding-bottom: 1.5rem;
+    width: 25%;
+    padding-bottom: 1.5rem;
+    padding-left: 24px;
 }
+
 .description h1 {
-  color: darkbrown;
-  font-weight: bold;
-  font-size: 1.5rem;
-  font-family: helvetica;
-  line-height: 2rem;
+    color: darkbrown;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: helvetica;
+    line-height: 2rem;
 }
 
 .description h2 {
-  color: grey;
-  font-weight:bold;
-  font-size: 1rem;
-  padding-top: 2rem;
-
+    color: grey;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 2rem;
 }
 
 .button {
-  color: white;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 2rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2rem;
 }
 
 .button span {
-  font-size: 12px;
+    font-size: 12px;
+}
+
+/*--Main Story--*/
+.main-info {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.main-img img {
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.main-descript {
+    width: 100%;
+}
+
+.main-descript h2 {
+    font-family: helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 24px;
+}
+
+.main-descript p {
+    font-size: 12px;
+    color: dimgrey;
+}
+
+.main-descript span {
+    font-family: helvetica;
+    font-weight: bold;
+    color: dimgrey;
+    font-size: 12px;
+}
+
+/*--Supporting Stories--*/
+.supporting-stories {
+    width: 40%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.story .supp-img {
+    width: 40%;
+}
+
+.story img {
+    width: 37%;
+    height: auto;
+    padding: 0 16px 16px 16px;
+}
+
+.story.two {
+    padding-top: 16px;
+}
+
+.story.three {
+    background-color: lightgrey;
+    padding-top: 16px;
+}
+
+.supp-descript h2 {
+    font-family: helvetica;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.supp-descript p {
+    font-family: helvetica;
+    font-size: 12px;
+    color: dimgrey;
+}
+
+.supp-descript span {
+    color: cornflowerblue;
+    font-size: 12px;
 }
