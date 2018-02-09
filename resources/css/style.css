@@ -201,3 +201,65 @@ color {
     color: cornflowerblue;
     font-size: 12px;
 }
+
+/*--Start learning--*/
+.start-banner h2 {
+    font-size: 2rem;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.programs {
+    background-color: lightgrey;
+    padding: 0px 72px 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.course {
+    background-color: white;
+    width: 30%;
+    margin-bottom: 32px;
+}
+
+.course img {
+    height: auto;
+    width: 100%;
+}
+
+.pro-descript {
+    padding-left: 16px;
+    padding: 0 16px 24px 16px;
+    background-color: white;
+}
+
+.pro-descript h2 {
+    color: dimgrey;
+    font-family: helvetica;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.pro-descript span {
+    font-size: 12px;
+    color: lightgrey;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.pro-descript p {
+    color: lightgrey;
+    font-family: helvetica;
+    font-size: 12px;
+    line-height: 19px;
+    justify-content: center;
+}
