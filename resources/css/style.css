@@ -17,6 +17,12 @@ div {
     display: block;
 }
 
+.page-container {
+    border: solid lightgrey .5px;
+    width: 960px;
+    margin: 0 auto;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -120,7 +126,7 @@ color {
 
 /*--Main Story--*/
 .main-info {
-    width: 60%;
+    width: 61%;
     padding: 32px 24px;
 }
 
@@ -203,15 +209,21 @@ color {
 }
 
 /*--Start learning--*/
-.start-banner h2 {
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.banner.one {
+    background-color: lightgrey;
+}
+
+.banner h2 {
     font-size: 2rem;
     font-family: helvetica;
     font-weight: bold;
     color: black;
-    background-color: lightgrey;
-    display: flex;
-    justify-content: center;
-    padding: 32px 0;
 }
 
 .programs {
@@ -262,4 +274,310 @@ color {
     font-size: 12px;
     line-height: 19px;
     justify-content: center;
+}
+
+/*--Thesis exhibit--*/
+video {
+    padding-bottom: 24px;
+}
+
+/*--Footer--*/
+/*--Universal Styles--*/
+html {
+    display: block;
+    font-family: helvetica;
+    font-size 18px; }
+
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    line-height: 1.4rem;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/*--Logo & Nav Bar--*/
+header {
+    display: block;
+}
+
+.company-name {
+    display: flex;
+    justify-content: space-between;
+    color: silver;
+    align-items: center;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 3rem;
+    padding-left: 24px;
+}
+
+.logo span {
+    height: 32px;
+    font-size: 1.2rem
+}
+
+color {
+    color: grey;
+    font-weight: bold;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-right: 24px;
+}
+
+.nav-bar span {
+    padding-left: 16px;
+}
+
+/*--Main Head--*/
+.main-page {
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.main-page img {
+    height: auto;
+    width: 57%;
+    padding: 32px 24px;
+}
+
+.description {
+    width: 25%;
+    padding-bottom: 1.5rem;
+    padding-left: 24px;
+}
+
+.description h1 {
+    color: darkbrown;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: helvetica;
+    line-height: 2rem;
+}
+
+.description h2 {
+    color: grey;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 2rem;
+}
+
+.button span {
+    font-size: 12px;
+}
+
+/*--Main Story--*/
+.main-info {
+    width: 61%;
+    padding: 32px 24px;
+}
+
+.main-img img {
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.main-descript {
+    width: 100%;
+}
+
+.main-descript h2 {
+    font-family: helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 24px;
+}
+
+.main-descript p {
+    font-size: 12px;
+    color: dimgrey;
+}
+
+.main-descript span {
+    font-family: helvetica;
+    font-weight: bold;
+    color: dimgrey;
+    font-size: 12px;
+}
+
+/*--Supporting Stories--*/
+.supporting-stories {
+    width: 40%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.story .supp-img {
+    width: 40%;
+}
+
+.story img {
+    width: 37%;
+    height: auto;
+    padding: 0 16px 16px 16px;
+}
+
+.story.two {
+    padding-top: 16px;
+}
+
+.story.three {
+    background-color: lightgrey;
+    padding-top: 16px;
+}
+
+.supp-descript h2 {
+    font-family: helvetica;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.supp-descript p {
+    font-family: helvetica;
+    font-size: 12px;
+    color: dimgrey;
+}
+
+.supp-descript span {
+    color: cornflowerblue;
+    font-size: 12px;
+}
+
+/*--Start learning--*/
+.banner.one {
+    background-color: lightgrey;
+}
+
+.banner h2 {
+    font-size: 2rem;
+    font-family: helvetica;
+    font-weight: bold;
+    color: black;
+}
+
+.programs {
+    background-color: lightgrey;
+    padding: 0px 72px 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.course {
+    background-color: white;
+    width: 30%;
+    margin-bottom: 32px;
+}
+
+.course img {
+    height: auto;
+    width: 100%;
+}
+
+.pro-descript {
+    padding-left: 16px;
+    padding: 0 16px 24px 16px;
+    background-color: white;
+}
+
+.pro-descript h2 {
+    color: dimgrey;
+    font-family: helvetica;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.pro-descript span {
+    font-size: 12px;
+    color: lightgrey;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.pro-descript p {
+    color: lightgrey;
+    font-family: helvetica;
+    font-size: 12px;
+    line-height: 19px;
+    justify-content: center;
+}
+
+/*--Thesis exhibit--*/
+.banner.two {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 0;
+}
+
+video {
+    padding-bottom: 24px;
+}
+
+/*--Footer--*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid lightgrey .5px;
+    padding: 16px 24px;
+}
+
+footer p {
+    display: flex;
+    color: lightgrey;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer span {
+    color: lightgrey;
+    font-size: 12px;
+    font-weight: bold;
 }
