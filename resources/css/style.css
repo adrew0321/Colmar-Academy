@@ -32,21 +32,6 @@ div {
     display: flex;
 }
 
-/*--Media Queries--*/
-@media only screen and (max-device-width: 480px) {
-    /*CSS Ruleset for smartphones, Android phones, landscape iPhone */
-     .page-container {
-        border: solid lightgrey .5px;
-        width: 960px;
-        margin: 0 auto;
-    }
-
-    .container {
-        width: 960px;
-        margin: 0 auto;
-    }
-}
-
 /*--Logo & Nav Bar--*/
 header {
     display: block;
@@ -97,12 +82,7 @@ color {
 
 /*--Media Queries--*/
 @media only screen and (max-device-width: 480px) {
-    /*CSS Ruleset for smartphones, Android phones, landscape iPhone */
-    .container {
-        width:480px;
-        margin: 0 auto;
-    }
-
+    /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
     .company-name {
         display: none;
     }
@@ -111,6 +91,12 @@ color {
         display: flex;
         justify-content: space-around;
         height: 64px;
+        width: 100%;
+        padding: 16px 0;
+    }
+
+    .mobile-nav img {
+        height: auto;
         width: 100%;
     }
 }
@@ -166,7 +152,7 @@ color {
 
 /*--Media Quueries--*/
 @media only screen and (max-device-width: 480px) {
-    /*CSS Ruleset for smartphones, Android phones, landscape iPhone */
+    /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
     .main-page {
         display: block;
         align-items: center;
@@ -188,18 +174,18 @@ color {
     .description h1 {
         color: black;
         font-weight: bold;
-        font-size: 3rem;
+        font-size: 6rem;
         font-family: helvetica;
-        line-height: 3rem;
-        padding: 32px 16px;
+        line-height: 6rem;
+        padding: 2rem;
     }
 
     .description h2 {
         color: grey;
-        font-size: 1.8rem;
+        font-size: 3.8rem;
         font-weight: bold;
-        line-height: 1.2;
-        padding: 0 16px 32px 16px;
+        line-height: 1.3;
+        padding: 0 2rem 2rem 2rem;
     }
 
     .button {
@@ -207,12 +193,13 @@ color {
         background-color: grey;
         display: flex;
         justify-content: center;
-        margin: 0 16px 32px 16px;
+        margin: 0 2rem 3rem 2rem;
+        align-items: center;
     }
 
     .button span {
-        font-size: 1.7rem;
-        padding: 16px;
+        font-size: 3rem;
+        padding: 32px 0;
     }
 }
 
