@@ -238,11 +238,23 @@ color {
     font-size: 12px;
 }
 
+/*--Media Queries--*/
+@media only screen and (max-device-width: 480px) {
+    /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
+    .main-info {
+        display:none;
+    }
+}
+
 /*--Supporting Stories--*/
 .supporting-stories {
     width: 40%;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.mobile-supp-stories {
+    display: none;
 }
 
 .story {
@@ -285,6 +297,24 @@ color {
 .supp-descript span {
     color: cornflowerblue;
     font-size: 12px;
+}
+
+/*--Media Queries--*/
+@media only screen and (max-device-width: 480px) {
+    /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
+    .supporting-stories {
+        display:block;
+    }
+
+    .mobile-supp-stories {
+        width: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .story {
+        display: block;
+    }
 }
 
 /*--Start learning--*/
