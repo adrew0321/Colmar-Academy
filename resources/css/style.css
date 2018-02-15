@@ -32,6 +32,11 @@ div {
     display: flex;
 }
 
+.mobile {
+    display:block;
+    width:480px;
+}
+
 /*--Logo & Nav Bar--*/
 header {
     display: block;
@@ -279,7 +284,7 @@ color {
 
 .story.three {
     background-color: lightgrey;
-    padding-top: 16px;
+    /* padding-top: 16px; */
 }
 
 .supp-descript h2 {
@@ -303,17 +308,30 @@ color {
 @media only screen and (max-device-width: 480px) {
     /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
     .supporting-stories {
+        display: none;
+    }
+
+    .mobile.supporting-stories {
         display:block;
+        width: 100%;
+        padding: unset;
     }
 
     .mobile-supp-stories {
+        display: block;
         width: 100%;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding: 2rem 2rem 3rem 2rem;
     }
 
     .story {
         display: block;
+        width: 100%;
+    }
+
+    .story img{
+        display:block;
+        width: 100%;
+        padding: unset;
     }
 }
 
