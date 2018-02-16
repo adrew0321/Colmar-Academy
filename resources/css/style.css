@@ -98,6 +98,7 @@ color {
         height: 64px;
         width: 100%;
         padding: 16px 0;
+        margin: 0 auto;
     }
 
     .mobile-nav img {
@@ -162,6 +163,7 @@ color {
         display: block;
         align-items: center;
         background-color: lightgrey;
+        padding-bottom: 16px;
     }
 
     .main-page img {
@@ -284,7 +286,7 @@ color {
 
 .story.three {
     background-color: lightgrey;
-    /* padding-top: 16px; */
+    padding-top: 16px;
 }
 
 .supp-descript h2 {
@@ -326,12 +328,38 @@ color {
     .story {
         display: block;
         width: 100%;
+        padding-bottom: 16px;
     }
 
-    .story img{
+    .story img {
         display:block;
         width: 100%;
         padding: unset;
+    }
+
+    .mobile.supp-stories {
+        padding:16px;
+    }
+
+    .supp-descript {
+        padding: 32px;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .supp-descript h2 {
+        padding-bottom:16px;
+    }
+
+    .supp-descript p {
+    padding-bottom: 16px;
+    font-size: 13px;
+    }
+
+    .story.three {
+    padding-top: 16px;
+    background-color: unset;
+    padding-bottom: unset;
     }
 }
 
