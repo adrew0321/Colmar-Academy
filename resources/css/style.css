@@ -353,7 +353,8 @@ color {
 
     .supp-descript p {
     padding-bottom: 16px;
-    font-size: 13px;
+    font-size: 2rem;
+    line-height: 1.3;
     }
 
     .story.three {
