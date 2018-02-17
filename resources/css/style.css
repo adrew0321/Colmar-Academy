@@ -33,8 +33,8 @@ div {
 }
 
 .mobile {
-    display:block;
-    width:480px;
+    display: block;
+    width: 480px;
 }
 
 /*--Logo & Nav Bar--*/
@@ -295,7 +295,7 @@ color {
     color: dimgrey;
 }
 
-.supp-descript p {
+.supp-descript h3 {
     font-family: helvetica;
     font-size: 12px;
     color: dimgrey;
@@ -314,7 +314,7 @@ color {
     }
 
     .mobile.supporting-stories {
-        display:block;
+        display: block;
         width: 100%;
         padding: unset;
     }
@@ -332,35 +332,35 @@ color {
     }
 
     .story img {
-        display:block;
+        display: block;
         width: 100%;
         padding: unset;
     }
 
     .mobile.supp-stories {
-        padding:16px;
+        padding: 16px;
     }
 
     .supp-descript {
         padding: 32px;
-        font-size: 2rem;
+        font-size: 3rem;
         line-height: 2rem;
     }
 
     .supp-descript h2 {
-        padding-bottom:16px;
+        padding-bottom: 16px;
     }
 
-    .supp-descript p {
-    padding-bottom: 16px;
-    font-size: 2rem;
-    line-height: 1.3;
+    .supp-descript h3 {
+        padding-bottom: 16px;
+        font-size: 2rem;
+        line-height: 1.3;
     }
 
     .story.three {
-    padding-top: 16px;
-    background-color: unset;
-    padding-bottom: unset;
+        padding-top: 16px;
+        background-color: unset;
+        padding-bottom: unset;
     }
 }
 
@@ -372,12 +372,6 @@ color {
     padding: 32px 0;
 }
 
-.banner.two {
-    display: flex;
-    justify-content: center;
-    padding-top: 32px;
-}
-
 .banner h2 {
     font-size: 2rem;
     font-family: helvetica;
@@ -385,6 +379,19 @@ color {
     color: black;
 }
 
+@media only screen and (max-device-width:480px) {
+    .banner.one {
+        background-color:unset;
+        padding-bottom:3rem;
+    }
+
+    .banner h2 {
+        font-size: 5rem;
+        font-family:helvetica;
+    }
+}
+
+/*--Programs--*/
 .programs {
     background-color: lightgrey;
     padding: 0px 72px 32px 72px;
@@ -436,6 +443,12 @@ color {
 }
 
 /*--Thesis exhibit--*/
+.banner.two {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
 video {
     padding-bottom: 24px;
 }
