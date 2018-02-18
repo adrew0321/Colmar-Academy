@@ -249,8 +249,19 @@ color {
 @media only screen and (max-device-width: 480px) {
     /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
     .main-info {
+        width:unset;
+        padding:unset;
+    }
+
+    .main-story-img {
         display:none;
     }
+
+    .main-descript {
+        display:none;
+    }
+
+
 }
 
 /*--Supporting Stories--*/
@@ -379,7 +390,9 @@ color {
     color: black;
 }
 
+/*--Media Queries--*/
 @media only screen and (max-device-width:480px) {
+    /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
     .banner.one {
         background-color:unset;
         padding: 2rem;
@@ -447,7 +460,9 @@ color {
     display:none;
 }
 
+/*--Media Queries--*/
 @media only screen and (max-device-width:480px) {
+    /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
     .programs {
         display:none;
     }
@@ -479,6 +494,22 @@ color {
 
 video {
     padding-bottom: 24px;
+}
+
+/*--Media Queries--*/
+@media only screen and (max-device-width:480px) {
+    /*--CSS Ruleset for smartphones, Android phones, landscape iPhone--*/
+    .banner.two {
+        padding-bottom: 32px;
+        margin-bottom:32px;
+    }
+
+    video {
+        display:block;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
 }
 
 /*--Footer--*/
