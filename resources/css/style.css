@@ -62,7 +62,8 @@ header {
 
 .logo span {
     height: 32px;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    text-shadow: 1px 2px 5px lightgrey;
 }
 
 color {
@@ -78,7 +79,11 @@ color {
 }
 
 .nav-bar span {
-    padding-left: 16px;
+    margin-left: 16px;
+}
+
+.nav-bar span:hover {
+    text-shadow: 5px 5px 5px grey;
 }
 
 .mobile-nav {
@@ -130,7 +135,7 @@ color {
 .description h1 {
     color: black;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: helvetica;
     line-height: 2rem;
 }
@@ -150,10 +155,29 @@ color {
     padding-top: 8px;
     padding-bottom: 8px;
     margin-top: 2rem;
+    border-radius:10px;
+
+}
+
+.button:hover {
+    background-color:grey;
+}
+
+.button:active {
+    background-color:grey;
+    box-shadow:5px 5px 5px white;
 }
 
 .button span {
-    font-size: 12px;
+    font-size: .8rem;
+}
+
+.button span:hover {
+    color:white;
+}
+
+.button span:active {
+
 }
 
 /*--Media Quueries--*/
@@ -291,13 +315,24 @@ color {
     padding: 0 16px 16px 16px;
 }
 
+.story.one:hover {
+    background-color:lightgrey;
+}
+
 .story.two {
     padding-top: 16px;
 }
 
+.story.two:hover {
+    background-color:lightgrey;
+}
+
 .story.three {
-    background-color: lightgrey;
     padding-top: 16px;
+}
+
+.story.three:hover{
+    background-color:lightgrey;
 }
 
 .supp-descript h2 {
@@ -494,6 +529,7 @@ color {
 
 video {
     padding-bottom: 24px;
+    width: 100%;
 }
 
 /*--Media Queries--*/
